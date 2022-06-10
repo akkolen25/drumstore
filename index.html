@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <!--icon-->
+    <link rel="icon" href= "images/tbgoLogo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="light-theme">
+   <header> 
+</header>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: rgb(31, 30, 30);
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url(images/drum2.jpg);
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<!--navigation-->
+<nav>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="dw.html">DW</a></li>
+        <li><a href="pearl.html">PEARL</a></li>
+        <li><a href="roland.html">ROLAND</a></li>
+        <li><a href="tama.html">TAMA</a></li>
+  
+        <img src="images/tbgoLogo1.png" class="logo">
+      </ul>
+</nav>
+
+
+   <!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <img src="images/tbgoLogo1.png" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide"> 
+    
+    </div>
+
+
+  </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="images/dw8.jpg" alt="John" style="width:100%">
+      <h3>DW DRUM</h3>
+      <p class="w3-opacity">DW Collector's Series 4-Piece Satin Specialty Burnt Toast Fade Shell Pack with Chrome Hardware
+    </p>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="images/pearl4.jpg" alt="Jane" style="width:100%">
+      <h3>PEARL DRUM</h3>
+      <p class="w3-opacity">Pearl Masters Maple Complete 4-Piece Shell Pack Absinthe Sparkle
+      </p>
+      <p>
+    </p>
+      <p></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="images/roland2.jpg" alt="Mike" style="width:100%">
+      <h3>ROLAND DRUM</h3>
+      <p class="w3-opacity">Roland TD-30K V-Pro Series Electronic Drum Kit</p>
+      <p>
+    </p>
+      <p></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="images/tama5.jpg" alt="Dan" style="width:100%">
+      <h3>TAMA DRUM</h3>
+      <p class="w3-opacity">Tama Imperialstar 8-Piece Double Bass Drum Set with Meinl HCS Cymbals
+      </p>
+    </p>
+      <p></p>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div>
+    <button class="btn">Dark</button>
+  </div>
+  
+  
+      <script src="app.js">
+  
+</script>  
+   <!-- Footer -->
+   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <a href="https://www.instagram.com/" target="blank"><img src="images/instagram.png"
+      alt="instagram" width="40" height="40"></a> <a href="https://www.facebook.com/" target="blank"><img src="images/facebook.png"
+        alt="facebook" width="45" height="45"></a>
+  <!-- End footer -->
+  </footer>
+  </body>
+</html>
